@@ -29,7 +29,7 @@ LBURGOBJ := \
 LBURG := $(LBURGDIR)/lburg
 $(LBURG) : $(LBURGOBJ)
 all :: $(LBURG)
-clean :: ; $(RM) $(LBURG)
+clean :: ; $(RM) $(LBURG) $(LBURGOBJ) $(LBURGDIR)/gram.c
 
 ## q3lcc - dagcheck.c
 DAGCHECK_C := $(Q3RCCDIR)/dagcheck.c

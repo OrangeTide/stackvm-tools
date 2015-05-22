@@ -1,2 +1,18 @@
 *.o
 *~
+.*.swp
+
+# generate files
+lcc/src/dagcheck.c
+lcc/lburg/gram.c
+
+# output binaries
+asm/q3asm
+lcc/cpp/cpp
+lcc/etc/lcc
+lcc/lburg/lburg
+lcc/src/rcc
+q3asm
+q3cpp
+q3lcc
+q3rcc
